@@ -1,0 +1,56 @@
+{
+  "name": "beejee_test",
+  "version": "1.0.0",
+  "description": "test",
+  "license": "MIT",
+  "author": "Konstantin Glukhov",
+  "scripts": {
+    "start": "webpack serve --open"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=15.12"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "baseui": "^9.112.0",
+    "email-validator": "^2.0.4",
+    "immer": "^9.0.1",
+    "querystring": "^0.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.3",
+    "redux": "^4.0.5",
+    "redux-saga": "^1.1.3",
+    "styletron-engine-atomic": "^1.4.7",
+    "styletron-react": "^6.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.13",
+    "@babel/plugin-proposal-export-default-from": "^7.12.13",
+    "@babel/plugin-proposal-object-rest-spread": "^7.13.8",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/plugin-transform-arrow-functions": "^7.13.0",
+    "@babel/plugin-transform-react-jsx": "^7.13.12",
+    "@babel/plugin-transform-regenerator": "^7.12.13",
+    "@babel/plugin-transform-runtime": "^7.13.10",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/register": "^7.13.8",
+    "@babel/runtime": "^7.13.10",
+    "@babel/runtime-corejs3": "^7.13.10",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "core-js": "3",
+    "csp-html-webpack-plugin": "^5.1.0",
+    "eslint": "^7.23.0",
+    "eslint-config-babel": "^9.0.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-react": "^7.23.1",
+    "eslint-plugin-snakecase": "^0.0.1",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
